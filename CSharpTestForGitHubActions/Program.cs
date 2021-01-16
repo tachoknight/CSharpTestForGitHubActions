@@ -10,7 +10,8 @@ namespace CSharpTestForGitHubActions
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world, this is Version 1.0");
+            Console.WriteLine("Hello world, this is Version 1.1");
+            Console.WriteLine("Oh, look, I added another line.");
         }
     }
 }
