@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,8 @@ namespace CSharpTestForGitHubActions
             Console.WriteLine("Hello world, this is Version 1.1");
             Console.WriteLine("Oh, look, I added another line.");
             Console.WriteLine("And this is just to make sure everything works");
+
+            JObject mksVal = JObject.Parse("{\"foo\":\"bar\"");
         }
     }
 }
