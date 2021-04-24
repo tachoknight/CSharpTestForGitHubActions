@@ -74,6 +74,9 @@ jobs:
         dotnet-version: 5.0.x
       env: 
         ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true' 
+    
+    - name: Install dependencies
+      run: dotnet restore
 
     # Add  MSBuild to the PATH: https://github.com/microsoft/setup-msbuild
     - name: Setup MSBuild.exe
