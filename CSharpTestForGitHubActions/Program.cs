@@ -16,6 +16,7 @@ namespace CSharpTestForGitHubActions
             Console.WriteLine("And this is just to make sure everything works");
 
             JObject mksVal = JObject.Parse("{\"foo\":\"bar\"");
+            Console.WriteLine("Hello world");
         }
     }
 }
