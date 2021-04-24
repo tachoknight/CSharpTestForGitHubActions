@@ -76,7 +76,7 @@ jobs:
         ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true' 
     
     - name: Install dependencies
-      run: dotnet add package Newtonsoft.Json --version 13.0.1
+      run: dotnet add CSharpTestForGitHubActions.csproj package Newtonsoft.Json --version 13.0.1
 
     # Add  MSBuild to the PATH: https://github.com/microsoft/setup-msbuild
     - name: Setup MSBuild.exe
